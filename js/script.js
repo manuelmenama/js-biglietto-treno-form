@@ -7,7 +7,7 @@ const oneKmPrice = 0.21;
 
 let outputMsg, totalPrice, discountedPrice;
 
-totalPrice = kmRequest * oneKmPrice
+totalPrice = kmRequest * oneKmPrice;
 
 //business layer
 if(userAge < 18){
