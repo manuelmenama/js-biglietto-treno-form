@@ -32,6 +32,7 @@ btnInput.addEventListener('click', function(){
         document.getElementById('offerta').innerHTML = `Utente minorenne`;
         outputMsg = `<s>${totalPrice.toFixed(2)}</s>&euro; ${discountedPrice.toFixed(2)}&euro;`;
         
+
         console.log('prezzo sconto young', discountedPrice);
     }else if(userAge === "over-65"){
         discountedPrice = totalPrice * (1 - agedDiscount);
